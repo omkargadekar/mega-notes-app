@@ -1,0 +1,27 @@
+.main-main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.up {
+  width: 27vw;
+}
+.down {
+  width: 73vw;
+}
+
+@media (max-width: 450px) {
+  .main-main {
+    display: block;
+  }
+  .up {
+    position: absolute;
+    /* width: 100vw;
+    height: 100vh; */
+  }
+  .down {
+    position: absolute;
+    /* width: 100vw;
+    height: 100vh; */
+  }
+}

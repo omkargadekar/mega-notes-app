@@ -1,0 +1,159 @@
+.popup {
+  background-color: rgba(0, 0, 0, 0.2);
+  width: 100vw;
+  height: 100vh;
+  z-index: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.popupmain {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 111;
+}
+.chooseColor {
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: 50%;
+}
+
+.modal {
+  width: 630px;
+  height: 280px;
+  background-color: white;
+  color: black;
+  z-index: 100;
+  border-radius: 9px;
+  box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.04);
+}
+.modalh {
+  font-family: Roboto;
+  font-size: 29px;
+  font-weight: 500;
+  line-height: 46px;
+  letter-spacing: 0.035em;
+  margin-left: 1.2rem;
+  margin-top: 1.8rem;
+  padding-top: 0.5rem;
+  padding-left: 0.5rem;
+}
+.form {
+  margin-left: 1.5rem;
+  margin-top: 1rem;
+}
+.modalgrp {
+  font-family: Roboto;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 44px;
+  letter-spacing: 0.035em;
+}
+.input {
+  width: 335px;
+  height: 41px;
+  border-radius: 22px;
+  border: 2px solid black;
+  margin-left: 15px;
+  font-size: 1.2rem;
+  padding-left: 10px;
+}
+.chooseDiv {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 1rem;
+}
+.modalcolor {
+  font-family: Roboto;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 44px;
+  letter-spacing: 0.035em;
+}
+.colorsDiv {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.modalSub {
+  height: 2.5rem;
+  width: 9rem;
+  border-radius: 11px;
+  font-size: 1.2rem;
+  outline: none;
+  border: none;
+  background-color: black;
+  color: white;
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+}
+
+.selected {
+  border: 2px solid black;
+}
+
+@media (max-width: 450px) {
+  .popup {
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 700px;
+    height: 100vh;
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .modal {
+    width: 320px;
+    height: 190px;
+    margin-right: 20px;
+  }
+  .modalh {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 29px;
+    letter-spacing: 0.035em;
+  }
+  .modalgrp {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0.035em;
+  }
+  .input {
+    width: 155px;
+    height: 27px;
+    border-radius: 9.72px;
+    font-family: Roboto;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0.035em;
+    border: 1px solid gray;
+    outline: none;
+  }
+  .modalcolor {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0.035em;
+  }
+  .chooseColor {
+    width: 17.67px;
+    height: 17.67px;
+  }
+  .modalSub {
+    width: 186px;
+    height: 32px;
+    border-radius: 6px;
+    right: 5.2rem;
+  }
+}

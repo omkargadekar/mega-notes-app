@@ -1,0 +1,46 @@
+.empty {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  position: relative;
+  background-color: #f7ecdc;
+  color: black;
+  width: 73vw;
+}
+
+.emptyMain {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.emptyLast {
+  position: absolute;
+  bottom: 0.4rem;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0.02em;
+}
+.emptyh {
+  font-family: Roboto;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 59px;
+  letter-spacing: 0.02em;
+}
+.emptyPara {
+  font-family: Roboto;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0.02em;
+}
+@media (max-width: 450px) {
+  .empty {
+    display: none;
+  }
+}
