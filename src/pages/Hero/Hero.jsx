@@ -23,7 +23,7 @@ const Hero = () => {
         />
       </div>
       <div className="down">
-        {isPressed ? (
+        {noteNames.length === 0 ? (
           <EmptyNote />
         ) : (
           <Notes
