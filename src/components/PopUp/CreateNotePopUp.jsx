@@ -18,7 +18,7 @@ const CreateNotePopUp = ({ setIsOpen, onCreateNote }) => {
   const handleSubmit = (e) => {
     e.preventDefault();
     const pfpText1 = input.charAt(0);
-    const pfpText2 = input.split(" ")[1]?.charAt(0) || "   ";
+    const pfpText2 = input.split(" ")[1]?.charAt(0) || input.charAt(1) || "   ";
     let pfpText = pfpText1 + pfpText2;
 
     onCreateNote(id, color, input, pfpText);
